@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+**/Builds
+**/JuceLibraryCode
+**LaterGator.xcodeproj
