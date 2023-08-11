@@ -3,8 +3,8 @@
 #include "TPTFilterSynthsOfSelf.h"
 #include <sos_modulator/sos_modulator.h>
 #include <juce_audio_processors/juce_audio_processors.h>
-#include <preset_component_base/preset_component_base.h>
-#include <sliders_sos/sliders_sos.h>
+#include <sos_preset_component_base/sos_preset_component_base.h>
+#include <sos_sliders/sos_sliders.h>
 #include <sos_curve_adjuster/sos_curve_adjuster.h>
 //#include <sos_IAudioProcessor/sos_IAudioProcessor.h>
 

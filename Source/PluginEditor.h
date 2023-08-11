@@ -4,7 +4,7 @@
 #include "Presets_SNF.h"
 #include "BarberPoleSlider.h"
 #include "ColorDefines_ShaveNFade.h"
-#include <preset_component_base/preset_component_base.h>
+#include <sos_preset_component_base/sos_preset_component_base.h>
 #include <sos_curve_adjuster/sos_curve_adjuster.h>
 #include <sos_drop_down_window/sos_drop_down_window.h>
 

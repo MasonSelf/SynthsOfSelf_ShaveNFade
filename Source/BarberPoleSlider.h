@@ -11,7 +11,7 @@
 #pragma once
 #include "ColorDefines_ShaveNFade.h"
 #include "BinaryData.h"
-#include <sliders_sos/sliders_sos.h>
+#include <sos_sliders/sos_sliders.h>
 
 class BarberPoleSlider : public SOSSliderHorizontal
 {

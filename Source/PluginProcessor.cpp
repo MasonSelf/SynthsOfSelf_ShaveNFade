@@ -197,6 +197,7 @@ bool AudioPluginAudioProcessor::isBusesLayoutSupported (const BusesLayout& layou
 void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
                                               juce::MidiBuffer& )
 {
+
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
@@ -210,13 +211,15 @@ void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
     {
         modProcessor.tempoData.ProcessTempoData(playHeadData);
     }
+    
+    modProcessor.Process(buffer.getNumSamples());
 
     auto hpMod = modProcessor.GetModdedVal("filternfade", "hp");
     auto lpMod = modProcessor.GetModdedVal("filternfade", "lp");
     auto gainMod = modProcessor.GetModdedVal("filternfade", "gain");
 
     //for traces
-    //todo: implement inputX in getTranslatedOutput!
+    //todo: implement inputX in getTranslatedOutput not here!
     highPassFilterCurveAdjuster.inputX.set(hpMod);
     lowPassFilterCurveAdjuster.inputX.set(lpMod);
     amplitudeCurveAdjuster.inputX.set(gainMod);

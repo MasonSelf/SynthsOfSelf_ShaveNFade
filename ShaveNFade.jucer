@@ -45,14 +45,15 @@
         <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
-        <MODULEPATH id="sliders_sos" path="../../MyModules"/>
         <MODULEPATH id="sos_curve_adjuster" path="../../MyModules"/>
         <MODULEPATH id="sos_IAudioProcessor" path="../../MyModules"/>
         <MODULEPATH id="sos_modulator" path="../../MyModules"/>
         <MODULEPATH id="sos_popup_window" path="../../MyModules"/>
-        <MODULEPATH id="preset_component_base" path="../../MyModules"/>
         <MODULEPATH id="sos_drop_down_window" path="../../MyModules"/>
         <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="sos_sliders" path="../../MyModules"/>
+        <MODULEPATH id="sos_maths" path="../../MyModules"/>
+        <MODULEPATH id="sos_preset_component_base" path="../../MyModules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
@@ -71,12 +72,14 @@
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
-    <MODULE id="preset_component_base" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
-    <MODULE id="sliders_sos" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="sos_curve_adjuster" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="sos_drop_down_window" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="sos_IAudioProcessor" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="sos_maths" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="sos_modulator" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="sos_popup_window" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="sos_preset_component_base" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="sos_sliders" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
 </JUCERPROJECT>
