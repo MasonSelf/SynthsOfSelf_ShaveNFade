@@ -14,3 +14,5 @@
 #define WHITE juce::Colour(240, 240, 236)
 #define GREY juce::Colour(180, 188, 194)
 #define BLACK juce::Colours::black
+
+#define LEGIBLE_COLOR_ON_GREY (WHITE).interpolatedWith((GREY).contrasting(), 0.7f)

@@ -18,7 +18,9 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAud
                                   true,
                                   "high pass",
                                   "20hz",
-                                  "20kHz"),
+                                  "20kHz",
+                                  WHITE,
+                                  0.8f),
       lowPassFilterCurveAdjuster(0,
                                  p.paramID,
                                  false,
@@ -33,7 +35,9 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAud
                                  true,
                                  "low pass",
                                  "20hz",
-                                 "20kHz"),
+                                 "20kHz",
+                                 WHITE,
+                                 0.8f),
       amplitudeCurveAdjuster(0,
                              p.paramID,
                              false,
@@ -48,7 +52,8 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAud
                              true,
                              "gain",
                              "-inf",
-                             "unity"),
+                             "unity",
+                             LEGIBLE_COLOR_ON_GREY),
       slider(p,
              p.paramID,
              0,
@@ -139,15 +144,16 @@ void AudioPluginAudioProcessorEditor::paint (juce::Graphics& g)
     g.drawFittedText("N", adjusterComponentSize + 148, 0, 200, 70, juce::Justification::centred, 1);
     g.drawFittedText("Fade", adjusterComponentSize * 2 + 42, 0, 200, 70, juce::Justification::centred, 1);
 
-    //version #
-    g.setFont(10.0f);
-    g.drawFittedText("v1.0.4", 610, 45, 30, 10, juce::Justification::centred, 1);
-
     //me
     g.setFont (30.0f);
     g.drawFittedText("Synths of Self", 30, 5, 250, 50, juce::Justification::topLeft, 1);
     g.setFont (15.0f);
     g.drawFittedText("synthsofself.com", 30, 41, 250, 50, juce::Justification::topLeft, 1);
+    
+    //version #
+    g.setFont(10.0f);
+    g.setColour(LEGIBLE_COLOR_ON_GREY);
+    g.drawFittedText("v1.0.4", 610, 45, 30, 10, juce::Justification::centred, 1);
 }
 
 void AudioPluginAudioProcessorEditor::resized()
