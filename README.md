@@ -27,7 +27,6 @@ These submodules are included via the [Projucer](https://docs.juce.com/master/tu
 * [Written User Guide](https://www.masonself.com/shave-n-fade-manual)
 * [Getting Started With Shave N Fade Video](https://youtu.be/bpdqnYLYeSA?si=Cu8Pf6Jlh2fLtvQu)
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bpdqnYLYeSA?si=Cu8Pf6Jlh2fLtvQu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
