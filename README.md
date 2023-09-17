@@ -1,5 +1,5 @@
 # Shave N Fade
-![Screenshot 2023-08-24 at 3.17.17 PM.png](..%2F..%2F..%2FSynths%20of%20Self%20Media%2FScreenshot%202023-08-24%20at%203.17.17%20PM.png)
+<img width="1053" alt="Screenshot 2023-08-24 at 3 17 17 PM" src="https://github.com/MasonSelf/SynthsOfSelf_ShaveNFade/assets/55724853/8c8eed68-3a73-41e3-8634-3918dd2c7888">
 
 Shave N Fade an audio effect plugin made with [JUCE](https://github.com/juce-framework/JUCE).
 Combining control over high pass filter cutoff frequency, low pass filter cutoff frequency, and gain 
