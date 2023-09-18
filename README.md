@@ -2,7 +2,7 @@
 
 <img width="1053" alt="Screenshot 2023-08-24 at 3 17 17 PM" src="https://github.com/MasonSelf/SynthsOfSelf_ShaveNFade/assets/55724853/828f3241-6af2-440b-862b-ef58a6a53965">
 
-Shave N Fade an audio effect plugin made with [JUCE](https://github.com/juce-framework/JUCE).
+Shave N Fade is an audio effect plugin made with [JUCE](https://github.com/juce-framework/JUCE).
 Combining control over high pass filter cutoff frequency, low pass filter cutoff frequency, and gain 
 in one macro parameter, Shave N Fade facilates nuanced transitional fade in / out aesthetics.
 Prominent [Curve Adjusters](https://github.com/MasonSelf/sos_curve_adjuster) offer deep scaling of each sub-parameter, catering to the
