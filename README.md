@@ -16,10 +16,6 @@ user's perception of the "feeling" of the macro control.
 * [sos_curve_adjuster](https://github.com/MasonSelf/sos_curve_adjuster)
 * [sos_slider](https://github.com/MasonSelf/sos_sliders)
 * [sos_preset_component_base](https://github.com/MasonSelf/sos_preset_component_base)
-
-These submodules are included via the [Projucer](https://docs.juce.com/master/tutorial_new_projucer_project.html) as 
-"user modules" in [ShaveNFade.jucer](https://github.com/MasonSelf/SynthsOfSelf_ShaveNFade/blob/main/ShaveNFade.jucer).
-
 ## End User Documentation
 
 * [Written User Guide](https://www.masonself.com/shave-n-fade-manual)
