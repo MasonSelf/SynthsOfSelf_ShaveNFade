@@ -9,9 +9,6 @@ Prominent [Curve Adjusters](https://github.com/MasonSelf/sos_curve_adjuster) off
 user's perception of the "feeling" of the macro control.
 ## Submodules
 
-To facilitate code sharing with [Later Gator](https://github.com/MasonSelf/SynthsOfSelf_LaterGator) 
-(and more plugins in the future), much of the codebase for this project is 
-included in the following submodules:
 * [sos_IAudioProcessor](https://github.com/MasonSelf/sos_IAudioProcessor)
 * [sos_drop_down_window](https://github.com/MasonSelf/sos_drop_down_window)
 * [sos_modulator](https://github.com/MasonSelf/sos_modulator)
